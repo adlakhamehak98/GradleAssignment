@@ -1,0 +1,7 @@
+task myTask {
+    println "I am a task from mytasks.gradle file"
+}
+
+task task1 <<{
+    println "i am task 1 "
+}
